@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { getCurrentUser } from '@api/auth'
+import { getCurrentUser } from '@api/auth.ts'
 import Home from './Home'
 import Login from './Login'
 import SignUp from './SignUp'

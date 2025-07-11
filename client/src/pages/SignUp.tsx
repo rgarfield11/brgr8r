@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { signup } from '@api/auth'
+import { signup } from '@api/auth.ts'
 
 export default function SignUp() {
   const [username, setUsername] = useState('')

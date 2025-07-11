@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { signup, login } from '@api/auth'
+import { signup, login } from '@api/auth.ts'
 
 export default function Auth({ setToken }: { setToken: (token: string) => void }) {
   const [username, setUsername] = useState('')
